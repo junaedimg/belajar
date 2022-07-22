@@ -1,0 +1,67 @@
+/* css element selector */
+
+body {
+  text-align: justify;
+}
+
+p {
+  text-indent: 2em;
+}
+
+/* css id selector */
+
+#judul1 {
+  color: red;
+}
+
+/* css class selector */
+
+.classFont {
+  color: green;
+}
+
+.cetak-besar {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.pseudoClass {
+  text-decoration: line-through;
+}
+
+/* specific selector */
+
+/* ol li a {
+  text-decoration: none;
+} */
+
+a.cetak-besar {
+  color: red;
+}
+
+/* pseudo link */
+.pseudoClass:link {
+  color: green;
+  font-size: 30px;
+}
+
+.pseudoClass:hover {
+  color: black;
+  font-size: 20px;
+}
+
+.pseudoClass:active {
+  color: gold;
+}
+.pseudoClass:visited {
+  color: orangered;
+}
+
+ol li a.pseudoClass:active {
+  color: black;
+}
+
+
+h2:hover{
+    color: red;
+}
